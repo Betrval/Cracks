@@ -1,0 +1,1 @@
+Put the "Bitchbot" Folder inside your synapse Workshop folder 
