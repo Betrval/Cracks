@@ -1,0 +1,33 @@
+coroutine.resume(coroutine.create(function()
+        while wait() do
+            if game.Players.LocalPlayer.Character.BodyEffects.Armor.Value < 10 then
+                _G.savedhumanoidpos = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                local target = game:GetService("Workspace").Ignored.Shop["[High-Medium Armor] - 2300"].Head.CFrame
+                player.Character.HumanoidRootPart.CFrame = CFrame.new(target)
+                wait(.5)
+                fireclickdetector(game.Workspace.Ignored.Shop['[High-Medium Armor] - 2300'].ClickDetector)
+                wait()
+                fireclickdetector(game.Workspace.Ignored.Shop['[High-Medium Armor] - 2300'].ClickDetector)
+                wait(.5)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(_G.savedhumanoidpos)
+            end
+            if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").Health < 70 then
+                _G.savedhumanoidpos = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-789.114, -39.6752, -942.038)
+                wait(.5)
+                fireclickdetector(game.Workspace.Ignored.Shop['[Pizza] - $5'].ClickDetector)
+                wait()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(_G.savedhumanoidpos)
+                for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                    if v.Name == '[Pizza]' then
+                        v.Parent = game.Players.LocalPlayer.Character
+                        for i = 1, 6 do
+                            v:Activate()
+                            wait(.5)
+                            v:Activate()
+                        end
+                    end
+                end
+            end 
+        end
+    end))

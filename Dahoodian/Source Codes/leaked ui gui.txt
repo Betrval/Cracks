@@ -1,0 +1,252 @@
+local Fun = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/nightmares.fun-UI-Library/main/source.lua"))()
+
+local window = Fun.Create("UI Library")
+
+local tab = window:Tab("Leak")
+
+local section = tab:Section("Showcase")
+
+section:Toggle("Toggle", function(s)
+   print(s)
+end)
+
+section:Button("Button", function()
+   
+end)
+
+section:Label("Label")
+
+section:KeyBind("KeyBind", Enum.KeyCode.E, function()
+   
+end)
+
+section:Slider("Slider", 16, 200, function()
+   
+end)
+
+section:Dropdown("Dropdown", {"1", "2", "3"}, function()
+   
+end)
+
+section:TextBox("Textbox", function()
+   
+end)
+
+
+NIGHTMARES.FUN UI LIBRARY
+
+GUI
+@deleted-role 
+Image
+    local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/naypramx/Ui__Project/Script/XeNonUi", true))()
+    library:CreateWatermark("Center Hub No.1") -- Config แตกนะเดียวค่อยแก้รอเน็ตมาก่อน By MeowX#0001
+    local CenterHubNo1 = library:CreateWindow("UI EDIT BY NAYPRAMXD :) ",Enum.KeyCode.RightControl)
+    local Tab = CenterHubNo1:CreateTab("TAB CENTERHUB")
+    local Sector1 = Tab:CreateSector("SECTOR CENTERHUB","left")
+    Sector1:AddLabel("LABEL BY CENTERHUB")
+    Sector1:AddToggle("TOGGLE BY CENTERHUB",false,function(t)
+       print(t)
+    end)
+    Sector1:AddButton("BUTTON BY CENTERHUB",function()
+        print("CENTERHUB")
+    end)
+    Sector1:AddDropdown("Multi DropdownText by Centerhub",{"None","IDK","odl2"},"None",true,function(t)
+        print(t)
+    end)
+    Sector1:AddDropdown("DropdownText by Centerhub",{"None","IDK","odl2"},"None",false,function(t)
+        print(t)
+    end)
+    local Dropdownxd = Sector1:AddToggle("Toggle With Dropdown",false,function(t)
+       print(t)
+    end)
+    Dropdownxd:AddDropdown({"None","IDK","odl2"},"None",false,function(t)
+        print(t)
+    end)
+    local Dropdow2nxd = Sector1:AddToggle("Toggle With Dropdown Multi",false,function(t)
+       print(t)
+    end)
+    Dropdow2nxd:AddDropdown({"None","IDK","odl2"},"None",true,function(t)
+        print(t)
+    end)
+    local Sector2 = Tab:CreateSector("SECTOR CENTERHUB 2","Right")
+     tablexd = {"xd1","table2","pussy3"}
+    local dropdoxwn = Sector2:AddDropdown("DropdownText Select Weapon",tablexd,"None",false,function(t)
+        print(t)
+    end)
+    Sector2:AddButton("Refresh Test",function()
+        table.clear(tablexd)
+        for i,v in pairs(tablexd) do
+        dropdoxwn:Add(v)
+        end
+    end)
+    local Sector3 = Tab:CreateSector("SECTOR CENTERHUB 3","Right")
+    Sector3:AddSlider("Slider By Center",20,50,100,1,function(x)
+        print(x)
+    end)
+    local Sector4 = Tab:CreateSector("SECTOR CENTERHUB 4","left")
+    Sector4:AddColorpicker('Color picker',Color3.fromRGB(255, 255, 255),function(t)
+        print(t)
+    end)
+    Sector3:AddSeperator("Seperator By Center")
+    local Tab2 = CenterHubNo1:CreateTab("Config") -- Config แตกนะเดียวค่อยแก้รอเน็ตมาก่อน By MeowX#0001
+    Tab2:CreateConfigSystem() -- Config แตกนะเดียวค่อยแก้รอเน็ตมาก่อน By MeowX#0001 -- ห้ามนำไปแจกต่อนะจ๊ะ XD
+
+@deleted-role 
+Image
+-- Paid Exploit Library Example
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/eKwyeQa0", true))()
+
+local tab1 = library:CreateTab("Test", true)
+local button = library:MakeButton(tab1,"Button",function(button)
+   print ("Hi")
+end)
+local toggle = library:MakeToggle(tab1,"Toggle",false,function(toggle)
+   print(toggle.Text)
+end)
+local text = library:MakeLabel(tab1,"Gay label")
+local box = library:MakeBox(tab1,"Text Box","Default text",function(box)
+   print (box.Text)
+end)
+local dropdown = library:MakeDropdown(tab1,"Dropdown",{"Ok","Ok","Ok"},"Ok",function(dropdown)
+   print (dropdown.Text)
+end)
+
+local tab2 = library:CreateTab("Test", false)
+local button = library:MakeButton(tab2,"Button",function(button)
+   print ("Hi")
+end)
+local toggle = library:MakeToggle(tab2,"Toggle",false,function(toggle)
+   print(toggle.Text)
+end)
+local text = library:MakeLabel(tab2,"Gay label")
+local box = library:MakeBox(tab2,"Text Box","Default text",function(box)
+   print (box.Text)
+end)
+local dropdown = library:MakeDropdown(tab2,"Dropdown",{"Ok","Ok","Ok"},"Ok",function(dropdown)
+   print (dropdown.Text)
+end)
+
+local tab3 = library:CreateTab("Test", false, Color3.new(0,.7,.5))
+local button = library:MakeButton(tab3,"Button",function(button)
+   print ("Hi")
+end)
+local toggle = library:MakeToggle(tab3,"Toggle",false,function(toggle)
+   print(toggle.Text)
+end)
+local text = library:MakeLabel(tab3,"Gay label")
+local box = library:MakeBox(tab3,"Text Box","Default text",function(box)
+   print (box.Text)
+end)
+local dropdown = library:MakeDropdown(tab3,"Dropdown",{"Ok","Ok","Ok"},"Ok",function(dropdown)
+   print (dropdown.Text)
+end)
+
+@deleted-role
+Image
+xxone rag — 08/07/2022 5:37 PM
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Kronos"))()
+
+local window = library:Window({
+   Title = "KronosLib - By LeadMarker#1219",
+   Accent = Color3.fromRGB(69,69,207),
+   Logo = 3610245066,
+   ToggleKey = Enum.KeyCode.LeftAlt
+})
+
+local tab = window:NewTab({
+   Logo = 4483345998
+})
+
+local tabsection = tab:TabSection({
+   Title = "TabSection"
+})
+
+local column = tabsection:AddColumn({
+   Title = "Column"
+})
+
+local section = column:Section({
+   Title = "Section"
+})
+
+section:Button({
+   Text = "Button",
+   Callback = function() end
+})
+
+section:Toggle({
+   Text = "Toggle",
+   State = false,
+   Callback = function() end
+})
+
+section:TextLabel({
+   Text = "Textlabel"
+})
+
+section:Divide({})
+
+section:Keybind({
+   Text = "Keybind",
+   Key = Enum.KeyCode.F,
+   Callback = function() end
+})
+
+section:Textbox({
+   Text = "Textbox",
+   Callback = function() end
+})
+
+section:Dropdown({
+   Text = "Dropdown",
+   List = {'option1', 'option2', 'option3'},
+   Callback = function() end
+})
+
+section:Slider({
+   Text = "Slider",
+   Min = 0,
+   Max = 100,
+   Def = 50,
+   Callback = function() end
+})
+
+@deleted-role
+Image
+xxone rag — 08/11/2022 5:17 AM
+I will be adding more later
+xxone rag — 08/12/2022 6:51 AM
+today is the day
+i will be adding
+i will be also testing it out before releasing it
+xxone rag — 08/12/2022 7:03 AM
+local SimpleShindoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/naypramx/Ui__Project/Script/SimpleShindoUi"))()
+
+local Main = SimpleShindoUi:new()
+
+local Tab = Main:Tap('Centerhub')
+
+local page = Tab:page()
+
+local Labelz = page:Label('Label!')
+
+page:Toggle('Toggle!',false,function(t)
+    print(t)
+end)
+page:Button('Button!',function()
+    print('t')
+end)
+page:Slider('Slider!',1,100,20,function(t)
+    print(t)
+end)
+local drope = page:drop('Dropdown!',"Nothings",false,{'DinoHub','CenterHub'},function(t)
+    print(t) -- ห้ามนำไปแจกต่อนะจ๊ะ XD
+end)
+
+local page2 = Tab:page()
+page2:Button('Clear Dropdown!',function()
+    drope:clear()
+end)
+page2:Button('Refresh Dropdown!',function()
+    drope:add({"Simple"}) -- มันทำไงวะ -- ห้ามนำไปแจกต่อนะจ๊ะ XD
+end)
