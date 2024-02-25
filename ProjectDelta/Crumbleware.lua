@@ -41,7 +41,7 @@ return (function(...)
 		HeadSound.Volume = 10;
 		HeadSound.Parent = game.ReplicatedStorage;
 		BodySound = Instance.new("Sound");
-		BodySound.Volume = 10;
+		BodySound.Volume = 10;a
 		BodySound.Parent = game.ReplicatedStorage;
 		local s = Drawing.new("Circle");
 		s.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2);
@@ -1477,7 +1477,7 @@ return (function(...)
 			Library:Unload();
 		end);
 		(L:AddLabel("Menu bind")):AddKeyPicker("MenuKeybind", {
-			Default = "End",
+			Default = "P",
 			NoUI = true,
 			Text = "Menu keybind"
 		});
