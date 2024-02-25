@@ -1477,7 +1477,7 @@ return (function(...)
 			Library:Unload();
 		end);
 		(L:AddLabel("Menu bind")):AddKeyPicker("MenuKeybind", {
-			Default = "End",
+			Default = "P",
 			NoUI = true,
 			Text = "Menu keybind"
 		});
